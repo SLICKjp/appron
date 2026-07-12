@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(mv \"Container.png\" \"story-banner.png\")",
-      "Bash(mv \"Container \\(1\\).png\" \"difference-collage.png\")"
+      "Bash(mv \"Container \\(1\\).png\" \"difference-collage.png\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173)",
+      "Bash(curl -s http://localhost:5173/src/components/Hero/Hero.jsx)"
     ]
   }
 }

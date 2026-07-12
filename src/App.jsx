@@ -6,7 +6,6 @@ import HowItWorks from './components/HowItWorks/HowItWorks'
 import Cuisines from './components/Cuisines/Cuisines'
 import Difference from './components/Difference/Difference'
 import StoryBanner from './components/StoryBanner/StoryBanner'
-import Testimonials from './components/Testimonials/Testimonials'
 import FAQ from './components/FAQ/FAQ'
 import CTA from './components/CTA/CTA'
 import Footer from './components/Footer/Footer'
@@ -21,7 +20,6 @@ function App() {
       <Cuisines />
       <Difference />
       <StoryBanner />
-      <Testimonials />
       <FAQ />
       <CTA />
       <Footer />

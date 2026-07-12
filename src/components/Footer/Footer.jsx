@@ -3,15 +3,11 @@ import './footer.css'
 const columns = [
   {
     title: 'Platform',
-    links: ['How it works', 'Browse cooks', 'Become a cook', 'Gift a meal', 'Pricing'],
-  },
-  {
-    title: 'Cuisines',
-    links: ['Punjabi', 'Hyderabadi', 'Bengali', 'Kerala', 'View all cuisines'],
+    links: ['How it works'],
   },
   {
     title: 'Company',
-    links: ['About us', 'Blog', 'Careers', 'Press', 'Contact'],
+    links: ['About us', 'Contact'],
   },
 ]
 

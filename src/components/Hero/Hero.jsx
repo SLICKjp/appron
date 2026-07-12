@@ -1,13 +1,7 @@
 import heroImg from '../../assets/hero.png'
 import Avatar from '../Avatar/Avatar'
-import { ArrowRightIcon, StarIcon } from '../Icons/Icons'
+import { AppleIcon, PlayStoreIcon, StarIcon } from '../Icons/Icons'
 import './hero.css'
-
-const stats = [
-  { value: '1,200+', label: 'Verified cooks' },
-  { value: '30+', label: 'Regional cuisines' },
-  { value: '15+', label: 'Cities' },
-]
 
 function Hero() {
   return (
@@ -28,20 +22,21 @@ function Hero() {
             restaurant. A real person. Your kitchen. Asli ghar ka khaana.
           </p>
 
-          <div className="hero-actions">
-            <a href="#book" className="btn btn-primary">
-              Find a cook near you <ArrowRightIcon />
+          <div className="store-badges">
+            <a href="#" className="store-badge">
+              <AppleIcon />
+              <span>
+                <small>Download on the</small>
+                <strong>App Store</strong>
+              </span>
             </a>
-            <a href="#how-it-works" className="btn btn-outline">How it works</a>
-          </div>
-
-          <div className="hero-stats">
-            {stats.map((stat) => (
-              <div className="hero-stat" key={stat.label}>
-                <span className="hero-stat-value">{stat.value}</span>
-                <span className="hero-stat-label">{stat.label}</span>
-              </div>
-            ))}
+            <a href="#" className="store-badge">
+              <PlayStoreIcon />
+              <span>
+                <small>GET IT ON</small>
+                <strong>Google Play</strong>
+              </span>
+            </a>
           </div>
         </div>
 

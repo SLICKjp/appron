@@ -58,6 +58,25 @@ export function ChevronIcon(props) {
   )
 }
 
+export function AppleIcon(props) {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" {...props}>
+      <path d="M16.37 1.43c0 1.14-.44 2.14-1.31 3.02-.88.9-1.94 1.44-3.12 1.35-.08-1.14.4-2.28 1.28-3.13.9-.86 1.99-1.34 3.15-1.24zM20.75 17.4c-.55 1.28-.81 1.85-1.51 2.98-.98 1.58-2.36 3.55-4.08 3.57-1.53.02-1.92-1-4-1-2.08 0-2.51 1-4.02.98-1.72-.02-3.03-1.79-4.01-3.37C.55 17.18-.53 12.66 1.1 9.63c.9-1.66 2.5-2.71 4.24-2.74 1.5-.03 2.92 1.02 3.83 1.02.9 0 2.64-1.26 4.45-1.08.76.03 2.89.31 4.26 2.32-.11.07-2.54 1.49-2.52 4.44.03 3.52 3.09 4.7 3.39 4.81z" />
+    </svg>
+  )
+}
+
+export function PlayStoreIcon(props) {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" {...props}>
+      <path d="M3.6 2.2c-.36.36-.6.9-.6 1.55v16.5c0 .65.24 1.19.6 1.55l.1.08 9.24-9.24v-.2L3.7 2.12z" fill="currentColor" fillOpacity="0.95" />
+      <path d="M16 12l3-1.7-2.9-1.68L13.6 12l2.4 2.4 3-1.7z" fill="currentColor" fillOpacity="0.7" />
+      <path d="M3.7 21.88c.35.16.8.1 1.28-.2l10.9-6.2-2.65-2.65z" fill="currentColor" />
+      <path d="M15.88 8.3L4.98 2.1c-.48-.28-.93-.35-1.28-.2l9.53 9.53z" fill="currentColor" fillOpacity="0.85" />
+    </svg>
+  )
+}
+
 export function QuoteIcon(props) {
   return (
     <svg width="28" height="22" viewBox="0 0 28 22" fill="currentColor" {...props}>
