@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv \"Container.png\" \"story-banner.png\")",
+      "Bash(mv \"Container \\(1\\).png\" \"difference-collage.png\")"
+    ]
+  }
+}

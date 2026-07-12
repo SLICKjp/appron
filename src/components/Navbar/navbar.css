@@ -1,0 +1,27 @@
+.navbar {
+  padding: 24px 0;
+}
+
+.navbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 32px;
+  font-size: 15px;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+@media (max-width: 900px) {
+  .navbar-links {
+    display: none;
+  }
+}

@@ -1,0 +1,153 @@
+.hero {
+  padding: 48px 0 64px;
+}
+
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.hero-title {
+  font-family: var(--font-serif);
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.18;
+  margin-bottom: 22px;
+}
+
+.hero-title em {
+  color: var(--accent);
+  font-style: italic;
+}
+
+.underline-swash {
+  text-decoration: underline;
+  text-decoration-color: var(--star);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 8px;
+}
+
+.hero-text {
+  max-width: 460px;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 44px;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 40px;
+}
+
+.hero-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hero-stat-value {
+  font-family: var(--font-serif);
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.hero-stat-label {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.hero-media {
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+.cook-card {
+  position: absolute;
+  right: 20px;
+  bottom: -28px;
+  width: 220px;
+  background: var(--white);
+  border-radius: 16px;
+  padding: 16px 18px;
+  box-shadow: 0 12px 32px rgba(36, 31, 28, 0.18);
+}
+
+.cook-card-tag {
+  display: block;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+.cook-card-body {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.cook-card-name {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.cook-card-meta {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.cook-card-rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  color: var(--ink);
+}
+
+@media (max-width: 900px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-media {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-stats {
+    gap: 28px;
+  }
+
+  .cook-card {
+    position: static;
+    width: 100%;
+    margin-top: 16px;
+    box-shadow: none;
+    border: 1px solid var(--border);
+  }
+}

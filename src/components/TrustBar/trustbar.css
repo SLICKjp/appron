@@ -1,0 +1,20 @@
+.trust-bar {
+  background: var(--plum-dark);
+  color: var(--white);
+  padding: 16px 0;
+}
+
+.trust-bar-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+.trust-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  white-space: nowrap;
+}

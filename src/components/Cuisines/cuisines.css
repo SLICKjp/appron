@@ -1,0 +1,61 @@
+.cuisines {
+  padding: 96px 0;
+  background: var(--cream-dark);
+}
+
+.cuisines-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.cuisine-card {
+  position: relative;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px;
+}
+
+.cuisine-icon {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  color: var(--accent);
+  opacity: 0.5;
+}
+
+.cuisine-name {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.cuisine-region {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 14px;
+}
+
+.cuisine-dishes {
+  font-size: 13.5px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .cuisines-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cuisines-grid {
+    grid-template-columns: 1fr;
+  }
+}
