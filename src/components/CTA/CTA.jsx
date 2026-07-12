@@ -1,4 +1,4 @@
-import { ArrowRightIcon } from '../Icons/Icons'
+import { AppleIcon, PlayStoreIcon } from '../Icons/Icons'
 import './cta.css'
 
 function CTA() {
@@ -13,11 +13,21 @@ function CTA() {
           cooking it.
         </p>
 
-        <div className="cta-actions">
-          <a href="#book" className="btn btn-light">
-            Find a cook near you <ArrowRightIcon />
+        <div className="cta-store-badges">
+          <a href="#" className="cta-store-badge">
+            <AppleIcon />
+            <span>
+              <small>Download on the</small>
+              <strong>App Store</strong>
+            </span>
           </a>
-          <a href="#become-a-cook" className="btn btn-outline-light">Become a cook on Appron</a>
+          <a href="#" className="cta-store-badge">
+            <PlayStoreIcon />
+            <span>
+              <small>GET IT ON</small>
+              <strong>Google Play</strong>
+            </span>
+          </a>
         </div>
       </div>
     </section>

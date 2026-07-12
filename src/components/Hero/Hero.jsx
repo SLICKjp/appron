@@ -22,15 +22,15 @@ function Hero() {
             restaurant. A real person. Your kitchen. Asli ghar ka khaana.
           </p>
 
-          <div className="store-badges">
-            <a href="#" className="store-badge">
+          <div className="hero-store-badges">
+            <a href="#" className="hero-store-badge">
               <AppleIcon />
               <span>
                 <small>Download on the</small>
                 <strong>App Store</strong>
               </span>
             </a>
-            <a href="#" className="store-badge">
+            <a href="#" className="hero-store-badge">
               <PlayStoreIcon />
               <span>
                 <small>GET IT ON</small>
