@@ -1,4 +1,4 @@
-import bannerImg from '../../assets/story-banner.png'
+import bannerImg from '../../assets/story-banner.jpg'
 import './storybanner.css'
 
 function StoryBanner() {

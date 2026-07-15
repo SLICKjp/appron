@@ -8,12 +8,12 @@ function Hero() {
     <section id="top" className="hero">
       <div className="container hero-inner">
         <div className="hero-content">
-          <p className="eyebrow">— Ghar jaisa khaana</p>
+          <p className="eyebrow">— Real food, real cooks</p>
 
           <h1 className="hero-title">
             A cook in your <em>home.</em>
             <br />
-            Desi food, <span className="underline-swash">made fresh.</span>
+            Fresh food ,<span className="underline-swash">made right.</span>
           </h1>
 
           <p className="hero-text">

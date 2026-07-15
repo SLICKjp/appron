@@ -29,7 +29,9 @@ function Difference() {
         <div className="difference-content">
           <p className="eyebrow">The difference</p>
           <h2 className="section-title">
-            Khaana jo actually <em>ghar jaisa lagta hai</em>
+             
+
+            Food that actually <em>tastes like home</em>
           </h2>
           <p className="difference-text">
             Delivery food travels in a box. Restaurant food is made for a hundred people

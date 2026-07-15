@@ -25,7 +25,7 @@ function HowItWorks() {
         <div className="section-heading">
           <p className="eyebrow eyebrow-center">Simple process</p>
           <h2 className="section-title">
-            Ghar ka khaana, <em>teen simple steps mein</em>
+            Home-cooked food,<em> in three simple steps</em>
           </h2>
           <span className="divider" />
         </div>

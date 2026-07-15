@@ -5,8 +5,8 @@ function CTA() {
   return (
     <section id="book" className="cta">
       <div className="container cta-inner">
-        <p className="eyebrow eyebrow-light eyebrow-center">Taiyaar ho?</p>
-        <h2 className="cta-title">Aaj hi book karein.</h2>
+        <p className="eyebrow eyebrow-light eyebrow-center">Get the app</p>
+        <h2 className="cta-title">Book your cook today.</h2>
         <p className="cta-text">
           Stop settling for cold bowls and restaurant food that tastes the same
           everywhere. Your next great meal is made at home, by someone who grew up
