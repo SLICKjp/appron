@@ -1,6 +1,5 @@
 import heroImg from '../../assets/hero.png';
-import Avatar from '../Avatar/Avatar';
-import {AppleIcon,PlayStoreIcon,StarIcon } from '../Icons/Icons';
+import {AppleIcon,PlayStoreIcon} from '../Icons/Icons';
 import './hero.css'
 
 function Hero() {
@@ -43,20 +42,7 @@ function Hero() {
         <div className="hero-media">
           <img src={heroImg} alt="Spices laid out for home cooking" className="hero-img" />
 
-          <div className="cook-card">
-            <span className="cook-card-tag">Verified cook</span>
-            <div className="cook-card-body">
-              <Avatar name="Sunita Devi" size={40} />
-              <div>
-                <p className="cook-card-name">Sunita Devi</p>
-                <p className="cook-card-meta">Punjabi cook · Delhi NCR</p>
-              </div>
-            </div>
-            <div className="cook-card-rating">
-              <StarIcon className="star-icon" />
-              <span>4.9 · 186 reviews</span>
-            </div>
-          </div>
+       
         </div>
       </div>
     </section>
