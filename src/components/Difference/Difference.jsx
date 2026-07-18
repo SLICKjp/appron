@@ -30,7 +30,6 @@ function Difference() {
           <p className="eyebrow">The difference</p>
           <h2 className="section-title">
              
-
             Food that actually <em>tastes like home</em>
           </h2>
           <p className="difference-text">

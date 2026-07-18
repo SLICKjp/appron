@@ -1,6 +1,6 @@
-import heroImg from '../../assets/hero.png'
-import Avatar from '../Avatar/Avatar'
-import { AppleIcon, PlayStoreIcon, StarIcon } from '../Icons/Icons'
+import heroImg from '../../assets/hero.png';
+import Avatar from '../Avatar/Avatar';
+import {AppleIcon,PlayStoreIcon,StarIcon } from '../Icons/Icons';
 import './hero.css'
 
 function Hero() {
